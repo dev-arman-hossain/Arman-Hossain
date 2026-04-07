@@ -38,9 +38,9 @@ export default function Skills() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               key={group.category}
-              className="glass-card p-8"
+              className="glass-card p-6 md:p-8"
             >
-              <h3 className="text-2xl font-semibold text-white mb-6 tracking-tight">
+              <h3 className="text-xl md:text-2xl font-semibold text-white mb-6 tracking-tight">
                 {group.category}
               </h3>
               <div className="flex flex-wrap gap-3">

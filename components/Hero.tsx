@@ -21,11 +21,11 @@ export default function Hero() {
             <h2 className="text-sm md:text-base font-medium text-blue-400 mb-2 tracking-widest uppercase">
               Welcome to my portfolio
             </h2>
-            <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-4 tracking-tighter">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-4 tracking-tighter">
               Hi, I'm <br className="hidden md:block" />
               <span className="text-gradient">Md. Arman Hossain</span>
             </h1>
-            <h3 className="text-xl md:text-3xl font-semibold text-zinc-300">
+            <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold text-zinc-300">
               Full Stack Web Developer
             </h3>
           </div>
@@ -59,14 +59,14 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="order-1 md:order-2 flex justify-center relative"
         >
-          <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full p-2 border-2 border-zinc-800 bg-zinc-900/50 backdrop-blur-sm overflow-hidden">
+          <div className="relative w-[240px] h-[240px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] rounded-full p-2 border-2 border-zinc-800 bg-zinc-900/50 backdrop-blur-sm overflow-hidden">
             <Image
               src="/portfolio_Image.png"
               alt="Md. Arman Hossain"
               fill
               className="object-cover rounded-full select-none pointer-events-none"
               priority
-              sizes="(max-width: 768px) 280px, 400px"
+              sizes="(max-width: 768px) 240px, (max-width: 1024px) 320px, 400px"
             />
           </div>
         </motion.div>

@@ -17,7 +17,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tighter">
+            <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tighter">
               Featured <span className="text-blue-500">Projects</span>
             </h2>
             <p className="text-zinc-400 text-lg">
@@ -60,9 +60,9 @@ export default function Projects() {
               </div>
 
               {/* Content Container */}
-              <div className="flex-1 p-8 md:p-10 bg-[#09090b]/60 backdrop-blur-md rounded-b-3xl border-x border-b border-white/10 flex flex-col">
+              <div className="flex-1 p-6 md:p-10 bg-[#09090b]/60 backdrop-blur-md rounded-b-3xl border-x border-b border-white/10 flex flex-col">
                 <div className="flex justify-between items-start mb-6">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white tracking-tight group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-xl md:text-3xl font-bold text-white tracking-tight group-hover:text-blue-400 transition-colors">
                     {project.title}
                   </h3>
                   <div className="flex gap-3">
@@ -113,7 +113,7 @@ export default function Projects() {
 
                   <Link
                     href={`/projects/${project.id}`}
-                    className="inline-flex items-center gap-2 text-white font-semibold hover:text-blue-400 transition-all group/link"
+                    className="inline-flex items-center gap-2 text-white font-semibold hover:text-blue-400 transition-all group/link px-4 py-2 rounded-full bg-white/5 md:bg-transparent md:p-0"
                   >
                     View Project 
                     <ArrowRight size={18} className="transform group-hover/link:translate-x-1 transition-transform" />

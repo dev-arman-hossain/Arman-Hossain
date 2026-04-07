@@ -24,7 +24,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-6 text-zinc-300 text-lg leading-relaxed"
+            className="space-y-6 text-zinc-300 text-base md:text-lg leading-relaxed"
           >
             <p>
               Hello! I'm <span className="text-white font-semibold flex-nowrap shrink-0">Arman Hossain</span>, a passionate Full Stack Developer based in Savar, Dhaka. My programming journey started with a curiosity about how websites work, which quickly evolved into a deep dive into modern web technologies.
@@ -74,11 +74,11 @@ export default function About() {
 
 function Card({ icon, title, desc }: { icon: React.ReactNode; title: string; desc: string }) {
   return (
-    <div className="glass-card p-6 flex flex-col gap-3 group">
-      <div className="p-3 bg-white/5 rounded-lg w-fit group-hover:scale-110 transition-transform">
+    <div className="glass-card p-5 md:p-6 flex flex-col gap-3 group">
+      <div className="p-2 md:p-3 bg-white/5 rounded-lg w-fit group-hover:scale-110 transition-transform">
         {icon}
       </div>
-      <h3 className="text-xl font-semibold text-white">{title}</h3>
+      <h3 className="text-lg md:text-xl font-semibold text-white">{title}</h3>
       <p className="text-zinc-400 text-sm">{desc}</p>
     </div>
   );
