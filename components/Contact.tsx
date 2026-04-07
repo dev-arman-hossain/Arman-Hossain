@@ -5,9 +5,9 @@ import { Mail, Phone, MessageCircle } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6 md:px-12 relative">
+    <section id="contact" className="py-12 md:py-24 px-6 md:px-12 relative">
       <div className="max-w-4xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Get In Touch</h2>
           <div className="h-1 w-20 bg-blue-500 mx-auto rounded-full" />
           <p className="mt-6 text-zinc-400 max-w-lg mx-auto">

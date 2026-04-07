@@ -23,9 +23,9 @@ const skillsData = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-6 md:px-12 relative bg-zinc-950/50">
+    <section id="skills" className="py-12 md:py-24 px-6 md:px-12 relative bg-zinc-950/50">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Technical Skills</h2>
           <div className="h-1 w-20 bg-blue-500 mx-auto rounded-full" />
         </div>

@@ -5,7 +5,7 @@ import { Code2, PenTool, Coffee, Gamepad2 } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="py-24 px-6 md:px-12 relative">
+    <section id="about" className="py-12 md:py-24 px-6 md:px-12 relative">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

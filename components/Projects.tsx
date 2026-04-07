@@ -13,9 +13,9 @@ import { projectsData } from "@/lib/projects";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-32 px-6 md:px-12 bg-[#020202]">
+    <section id="projects" className="py-16 md:py-32 px-6 md:px-12 bg-[#020202]">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-20 gap-6">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 tracking-tighter">
               Featured <span className="text-blue-500">Projects</span>
